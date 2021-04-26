@@ -14,9 +14,16 @@ in the object.
 
 function averageBalance(array){
   //CODE BELOW HERE
-
+for(var i = 0; i <= customers.length - 1; i++){
+  if(array === customers[i].array){
+    console.log(true);
+  } else {
+    console.log(false);
+  }
+}
 
 
 
   //CODE ABOVE HERE
 }
+console.log(averageBalance('3690.70'))
